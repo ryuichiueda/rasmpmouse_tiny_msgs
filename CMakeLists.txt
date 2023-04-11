@@ -12,7 +12,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Switches.msg"
   "msg/LightSensorValues.msg"
   "msg/MotorFreqs.msg"
+  "srv/SwitchMotors.srv"
+  "srv/PutMotorFreqs.srv"
 )
+
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
