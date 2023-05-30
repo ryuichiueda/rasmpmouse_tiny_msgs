@@ -14,6 +14,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MotorFreqs.msg"
   "srv/SwitchMotors.srv"
   "srv/PutMotorFreqs.srv"
+  "action/Music.action"
 )
 
 # uncomment the following section in order to fill in
